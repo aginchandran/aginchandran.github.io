@@ -1,0 +1,176 @@
+.clearfix {
+*zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+display: table;
+line-height: 0;
+content: "";
+}
+.clearfix:after {
+clear: both;
+}
+.hide-text {
+font: 0/0 a;
+color: transparent;
+text-shadow: none;
+background-color: transparent;
+border: 0;
+}
+.input-block-level {
+display: block;
+width: 100%;
+min-height: 30px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+@-ms-viewport {
+width: device-width;
+}
+@media (min-width:220px){
+  .rs-nav{
+    position: relative;
+    margin: 0;
+  }
+  .body-container {
+    padding: 0px;
+  }
+  input.search-query{
+    width: 84% !important;
+  }
+  input, textarea, select {
+  width: 95% !important
+  }
+  .re-mainContainer{
+    width: 100%;
+  }
+  .rs-logo-div{
+    margin-top:-30px;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .tag{
+    margin-left: 0 !important;
+  }
+}
+@media (min-width:300px){
+ .rs-nav{
+    position: relative;
+    margin: 0;
+  }
+  .body-container {
+    padding: 0px;
+  }
+  .re-mainContainer{
+    width: 100%;
+  }
+  .tag{
+    margin-left: 0 !important;
+  }
+}
+@media (min-width:460px){
+  .rs-nav{
+    position: relative;
+    margin: 0;
+  }
+  input, textarea, select {
+  width: 74% !important;
+  }
+  .body-container {
+    padding: 0px;
+  }
+  .re-mainContainer{
+    width: 100%;
+  }
+  .tag{
+    margin-left: 0 !important;
+  }
+  #myCarousel{
+    margin-top: 0;
+  }
+  .rs-call{
+    margin: 0;
+  }
+}
+@media (min-width:748px){ 
+  .rs-nav{
+    position: relative;
+  }
+  input, textarea, select {
+  width: 74% !important;
+  }
+  .body-container {
+    padding: 0px;
+  }
+  .re-mainContainer{
+    width: 100%;
+  }
+  .tag{
+    margin-left: -24px !important;
+  }
+  .rs-call{
+    margin-top: -13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .rs-nav{
+    position: absolute;
+    margin: 8px -12px 23px;
+  }
+  input, textarea,select {
+  width: 74% !important;
+  }
+  .body-container {
+    padding: 2px;
+  }
+  .re-mainContainer{
+    width: 90%;
+  }
+  #myCarousel{
+    margin-left: 172px;
+    margin-top: -55px;
+  }
+  .tag{
+    margin-left: -24px !important;
+  }
+}
+@media (min-width:1004px){
+  .rs-nav{
+    position: absolute;
+    margin: 7px -12px;
+  }
+  .ph-home-menu{
+  margin-left: 18px !important;
+  }
+  .body-container {
+    padding: 20px;
+  }
+  .re-mainContainer{
+    width: 90%;
+  }
+  #myCarousel{
+    margin-top: -85px;
+    /*margin-bottom: 85px;*/
+    /*width: 80.7%;*/
+  }
+  .tag{
+    margin-left: -42px !important;
+  }
+}
+@media (min-width:1260px){
+  .rs-nav{
+    position: absolute;
+    margin: 8px -21px;
+  }
+  .body-container {
+    padding: 20px;
+  }
+  .re-mainContainer{
+    width: 90%;
+  }
+ #myCarousel{
+    margin-top: -100px;
+  }
+
+}
